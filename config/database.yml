@@ -1,0 +1,8 @@
+development: &development
+  adapter: mysql2
+  database: tbs_dev
+  username: wlw
+  password: wlw
+  encoding: utf8
+  pool: 5
+  timeout: 5000

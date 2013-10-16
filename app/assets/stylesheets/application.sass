@@ -1,0 +1,41 @@
+//= require_self
+//= require_tree .
+@import "font-awesome"
+
+body
+  font-family: 'Oswald', Arial
+  font-weight: 400
+  background-image: image_url("background.jpg")
+  background-size: cover
+  color: #7e0000
+
+  header
+    h1
+      font-weight: 700
+
+  #player
+    height: 500px
+    width: 889px
+    margin-left: auto
+    margin-right: auto
+    padding-bottom: 20px
+
+  #picker
+    padding: 20px
+    border-top: 1px solid rgba(255, 255, 255, 0.3)
+    .band
+      outline: 1px solid rgba(255, 255, 255, 0.8)
+      width: 150px
+      height: 150px
+      line-height: 150px
+      text-align: center
+      font-size: 70px
+      float: left
+      background-size: cover
+      margin-bottom: 20px
+      &:hover
+        cursor: pointer
+        i
+          color: rgba(255, 255, 255, 0.9)
+      i
+        color: rgba(255, 255, 255, 0.8)
