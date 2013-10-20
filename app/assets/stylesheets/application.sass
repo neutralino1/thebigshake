@@ -29,17 +29,42 @@ body
     border-top: 1px solid rgba(255, 255, 255, 0.3)
     background-color: rgba(0, 0, 0, 0.5)
     .band
+      position: relative
       outline: 1px solid rgba(255, 255, 255, 0.8)
       width: 150px
       height: 150px
-      line-height: 150px
       text-align: center
-      font-size: 70px
       float: left
       background-size: cover
+      margin-right: 20px
       &:hover
         cursor: pointer
+        .icon
+          i
+            color: rgba(255, 255, 255, 1)
+        .veil
+          background-color: rgba(126, 0, 0, 0.2)
+      .icon
+        z-index: 1000
         i
-          color: rgba(255, 255, 255, 0.9)
-      i
-        color: rgba(255, 255, 255, 0.8)
+          line-height: 150px
+          font-size: 70px
+          color: rgba(255, 255, 255, 0.8)
+          z-index: 1000
+      .name
+        text-align: center
+        position: absolute
+        bottom: 0
+        width: 100%
+        background-color: rgba(255, 255, 255, 0.5)
+        z-index: 1000
+      .veil
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        z-index: 100
+        background-color: rgba(126, 0, 0, 0.5)
+      &.current
+        .veil
+          background-color: transparent

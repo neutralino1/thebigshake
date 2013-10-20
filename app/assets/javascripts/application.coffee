@@ -78,7 +78,8 @@ class AudioPlayer
     @video.on_play = =>
       if $('.band.current')[0]
         @button = $('.band.current')
-        @play()
+        if @button.hasClass('paused')
+          @play()
       else
         $('.band').first().trigger 'click'
 
@@ -96,6 +97,8 @@ class AudioPlayer
       @play()
 
   play: ->
+    $('i.icon-pause').addClass('icon-play')
+    $('i.icon-pause').removeClass('icon-pause')
     icon = @button.find('i')
     icon.removeClass('icon-play')
     icon.addClass('icon-pause')
