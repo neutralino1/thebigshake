@@ -76,8 +76,8 @@ class AudioPlayer
   setup_video_callbacks: ->
     @video.on_pause = @pause.bind(this)
     @video.on_play = =>
-      if $('.band.playing')[0]
-        @button = $('.band.playing')
+      if $('.band.current')[0]
+        @button = $('.band.current')
         @play()
       else
         $('.band').first().trigger 'click'
@@ -85,9 +85,12 @@ class AudioPlayer
   play_pause: (ev) ->
     @button = $(ev.target)
     @button = @button.parents('.band') unless @button.hasClass('band')
-    if @button.hasClass('playing')
+    if @button.hasClass('current')
       console.log 'PAUSE'
-      @pause()
+      if @button.hasClass('paused')
+        @play()
+      else
+        @pause()
     else
       console.log 'PLAY'
       @play()
@@ -96,16 +99,18 @@ class AudioPlayer
     icon = @button.find('i')
     icon.removeClass('icon-play')
     icon.addClass('icon-pause')
-    @video.play()
     @video.position (position) =>
-      $('.band').removeClass('playing')
-      @button.addClass('playing')
+      @video.play()
+      $('.band').removeClass('current')
+      $('.band').removeClass('paused')
+      @button.addClass('current')
       @audio.play_track(@button.data('track-id'), position * 1000)
 
   pause: (ev) ->
-    icon = $('.band.playing i')
+    icon = @button.find('i')
     icon.removeClass('icon-pause')
     icon.addClass('icon-play')
+    @button.addClass('paused')
     @video.pause()
     @audio.pause()
 

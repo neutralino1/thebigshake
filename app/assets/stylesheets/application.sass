@@ -2,12 +2,16 @@
 //= require_tree .
 @import "font-awesome"
 
+.clear
+  clear: both
+
 body
   font-family: 'Oswald', Arial
   font-weight: 400
   background-image: image_url("background.jpg")
   background-size: cover
   color: #7e0000
+  margin: 0
 
   header
     h1
@@ -23,6 +27,7 @@ body
   #picker
     padding: 20px
     border-top: 1px solid rgba(255, 255, 255, 0.3)
+    background-color: rgba(0, 0, 0, 0.5)
     .band
       outline: 1px solid rgba(255, 255, 255, 0.8)
       width: 150px
@@ -32,7 +37,6 @@ body
       font-size: 70px
       float: left
       background-size: cover
-      margin-bottom: 20px
       &:hover
         cursor: pointer
         i

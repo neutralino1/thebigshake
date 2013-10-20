@@ -4,4 +4,5 @@
   - @bands.each_with_index do |band, ii|
     .band{style: "background-image: url(#{band.thumbnail.url})", data: {track_id: band.track_id}}
       %i.icon-play
-  %button#pause PAUSE
+  -#%button#pause PAUSE
+  .clear
