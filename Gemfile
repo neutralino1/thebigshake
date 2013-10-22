@@ -9,6 +9,8 @@ gem 'rails_admin'
 gem "paperclip", "3.4.2"
 gem 'aws-sdk'
 gem 'aws-s3'
+gem 'stringex'  
+gem 'redcarpet'
 
 group :assets do
   gem 'sass-rails',   '~> 4.0.0'

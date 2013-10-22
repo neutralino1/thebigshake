@@ -11,12 +11,17 @@
 %body
   %header
     #left
-      %h1 THE BIG SHAKE
+      %h1= link_to 'THE BIG SHAKE', root_path
     #right
       %ul#menu
         %li PRESSE
         %li L'EQUIPE
-        %li LES GROUPES
+        %li.bands
+          = link_to 'LES GROUPES', 'javascript://'
+          %ul.dropdown
+            - @bands.each do |band|
+              %li
+                = link_to band.name, band
         %li LE PROJET
     .clear
   = yield

@@ -12,6 +12,9 @@ body
   background-size: cover
   color: #7e0000
   margin: 0
+  a
+    text-decoration: none
+    color: #7e0000
 
   header
     padding: 0 20px
@@ -35,7 +38,49 @@ body
       li
         margin-left: 40px
         float: right
+        &.bands
+          position: relative
+          ul.dropdown
+            list-style: none
+            position: absolute
+            top: 24px
+            display: none
+            background-color: rgba(255, 255, 255, 0.9)
+            z-index: 10000
+            padding: 0
+            width: 150px
+            &:hover
+              display: block
+            li
+              float: none
+              margin: 5px
+          &:hover
+            ul.dropdown
+              display: block
 
+  #main
+    padding: 0 20px
+    figure
+      float: left
+      width: 300px
+      margin: 0
+      margin-right: 20px
+      img
+        width: 100%
+    article
+      background-color: rgba(255, 255, 255, 0.6)
+      float: left
+      padding: 20px
+      width: 600px
+      .bio
+        font-weight: 300
+        color: rgba(0, 0, 0, 0.7)
+        font-size: 18px
+      .links
+        font-size: 25px
+        a
+          margin-right: 10px
+          color: rgba(126, 0, 0, 0.5)
   #player
     height: 500px
     width: 100%

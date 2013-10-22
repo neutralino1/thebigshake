@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131022154234) do
+ActiveRecord::Schema.define(version: 20131022163119) do
 
   create_table "admins", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20131022154234) do
     t.string   "link"
     t.integer  "track_id"
     t.string   "track_name"
+    t.string   "url"
   end
 
   create_table "rails_admin_histories", force: true do |t|

@@ -1,0 +1,17 @@
+#main
+  %figure
+    = image_tag @band.picture.url
+  %article
+    %h2= @band.name
+    .bio
+      = markdown @band.bio
+    .links
+      - if @band.facebook?
+        = link_to @band.facebook do
+          %i.icon-facebook
+      - if @band.twitter?
+        = link_to @band.twitter do
+          %i.icon-twitter
+      - if @band.link?
+        = link_to @band.link do
+          %i.icon-music
