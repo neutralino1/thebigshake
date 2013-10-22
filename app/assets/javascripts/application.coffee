@@ -1,6 +1,5 @@
 #= require jquery
 #= require jquery_ujs
-#= require turbolinks
 
 class VideoPlayer
   constructor: ->
@@ -67,11 +66,13 @@ class AudioPlayer
 
 @TBS =
   init: ->
+    console.log('init 1')
     @video = new VideoPlayer()
     track_ids = []
     $('.band').each (ii, item) ->
       track_ids.push($(item).data('track-id'))
     @audio = new AudioPlayer(track_ids)
+    console.log('init 2')
     $('.band').on 'click', @play_pause.bind(this)
     $('button#pause').on 'click', @pause.bind(this)
     @setup_video_callbacks()
@@ -104,6 +105,7 @@ class AudioPlayer
       @play()
 
   play_pause: (ev) ->
+    console.log 'play_pause'
     @button = $(ev.target)
     @button = @button.parents('.band') unless @button.hasClass('band')
     if @button.hasClass('current')
@@ -135,4 +137,5 @@ class AudioPlayer
     @video.pause()
     @audio.pause()
 
-$ -> TBS.init()    
+$ -> TBS.init()
+$(document).on 'page:load', -> TBS.init()
