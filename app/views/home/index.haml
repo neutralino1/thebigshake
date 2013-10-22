@@ -1,11 +1,16 @@
-#player
-  %iframe#tbs-player{src: 'http://player.vimeo.com/video/72523306?api=1&player_id=tbs-player&byline=0&title=0', width: '100%', height: '100%', frameborder: '0', webkitAllowFullScreen: true, mozallowfullscreen: true, allowFullScreen: true }
 #picker
-  - @bands.each_with_index do |band, ii|
-    .band{style: "background-image: url(#{band.thumbnail.url})", data: {track_id: band.track_id}}
-      .icon
-        %i.icon-play
-      .name= band.name
-      .veil
+  %ul
+    - @bands.each_with_index do |band, ii|
+      %li.band{data: {track_id: band.track_id}}
+        %figure{style: "background-image: url(#{band.thumbnail.url})"}
+          .icon
+            %i.icon-play
+          .veil
+        .name
+          %h5= band.name
+          %h6= band.track_name
+        .clear
   -#%button#pause PAUSE
   .clear
+#player
+  %iframe#tbs-player{src: 'http://player.vimeo.com/video/72523306?api=1&player_id=tbs-player&byline=0&title=0', width: '780px', height: '439px', frameborder: '0', webkitAllowFullScreen: true, mozallowfullscreen: true, allowFullScreen: true }

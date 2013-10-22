@@ -17,10 +17,13 @@ class VideoPlayer
     if data.event == 'ready'
       @post('addEventListener', 'play', @iframe)
       @post('addEventListener', 'pause', @iframe)
+      @post('addEventListener', 'seek', @iframe)
     if data.event == 'pause'
       @on_pause() if @on_pause
     if data.event == 'play'
       @on_play() if @on_play
+    if data.event == 'seek'
+      @on_seek() if @on_seek
 
   play: ->
     @post('setVolume', 0.0001)
@@ -72,6 +75,21 @@ class AudioPlayer
     $('.band').on 'click', @play_pause.bind(this)
     $('button#pause').on 'click', @pause.bind(this)
     @setup_video_callbacks()
+    @setup_video_size()
+    $(window).on 'resize', @setup_video_size.bind(this)
+
+  setup_video_size: ->
+    body = $('body')
+    window_width = body.width()
+    window_height= body.height()
+    picker = $('#picker')
+    picker_width = picker.width()
+    iframe = $('iframe')
+    width = window_width - picker_width - 180
+    iframe.width(width)
+    iframe.height(width*9.0/16)
+    picker.height(window_height - $('header').height())
+
 
   setup_video_callbacks: ->
     @video.on_pause = @pause.bind(this)
@@ -82,18 +100,18 @@ class AudioPlayer
           @play()
       else
         $('.band').first().trigger 'click'
+    @video.on_seek = =>
+      @play()
 
   play_pause: (ev) ->
     @button = $(ev.target)
     @button = @button.parents('.band') unless @button.hasClass('band')
     if @button.hasClass('current')
-      console.log 'PAUSE'
       if @button.hasClass('paused')
         @play()
       else
         @pause()
     else
-      console.log 'PLAY'
       @play()
 
   play: ->

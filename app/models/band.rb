@@ -4,6 +4,7 @@ class Band < ActiveRecord::Base
     edit do
       field :name
       field :track_id
+      field :track_name
       field :bio
       field :thumbnail
       field :picture
