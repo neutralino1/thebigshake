@@ -85,11 +85,12 @@ class AudioPlayer
     window_height= body.height()
     picker = $('#picker')
     picker_width = picker.width()
-    iframe = $('iframe')
-    width = window_width - picker_width - 180
-    iframe.width(width)
-    iframe.height(width*9.0/16)
-    picker.height(window_height - $('header').height())
+    iframe = $('iframe#tbs-player')
+    if iframe[0]
+      width = window_width - picker_width - 180
+      iframe.width(width)
+      iframe.height(width*9.0/16)
+      picker.height(window_height - $('header').height())
 
 
   setup_video_callbacks: ->
