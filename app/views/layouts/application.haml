@@ -11,7 +11,7 @@
     %meta{property: 'fb:app_id', content: '725460550815345'}
     %meta{property: 'fb:admins', content: '677501914'}
     %meta{property: 'fb:admins', content: '546857582'}
-    %meta{property: 'og:video', content: 'http://vimeo.com/72523306'}
+    -#%meta{property: 'og:video', content: 'http://vimeo.com/72523306'}
     %meta{property: 'og:description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à une geste du quotidien qui dérape.'}
     %meta{name: 'description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à une geste du quotidien qui dérape.'}
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
@@ -22,7 +22,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=725460550815345";
+        js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=725460550815345";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 %body
@@ -31,7 +31,7 @@
       %h1= link_to 'THE BIG SHAKE', root_path
     #right
       %ul#menu
-        %li= link_to 'RÉACTIONS', comments_path
+        %li= link_to 'LES RÉACTIONS', comments_path
         %li= link_to "L'EQUIPE", team_path
         %li.bands
           = link_to 'LES GROUPES', 'javascript://'

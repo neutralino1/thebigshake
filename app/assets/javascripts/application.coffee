@@ -9,20 +9,20 @@ class VideoPlayer
     window.addEventListener('message', @message.bind(this), false)
 
   message: (e) ->
-    console.log(e.data)
-    data = JSON.parse(e.data)
-    if data.method == 'getCurrentTime'
-      @callbacks['getCurrentTime'].apply(null, [data.value])
-    if data.event == 'ready'
-      @post('addEventListener', 'play', @iframe)
-      @post('addEventListener', 'pause', @iframe)
-      @post('addEventListener', 'seek', @iframe)
-    if data.event == 'pause'
-      @on_pause() if @on_pause
-    if data.event == 'play'
-      @on_play() if @on_play
-    if data.event == 'seek'
-      @on_seek() if @on_seek
+    unless /_FB_/.test(e.data)
+      data = JSON.parse(e.data)
+      if data.method == 'getCurrentTime'
+        @callbacks['getCurrentTime'].apply(null, [data.value])
+      if data.event == 'ready'
+        @post('addEventListener', 'play', @iframe)
+        @post('addEventListener', 'pause', @iframe)
+        @post('addEventListener', 'seek', @iframe)
+      if data.event == 'pause'
+        @on_pause() if @on_pause
+      if data.event == 'play'
+        @on_play() if @on_play
+      if data.event == 'seek'
+        @on_seek() if @on_seek
 
   play: ->
     @post('setVolume', 0.0001)
