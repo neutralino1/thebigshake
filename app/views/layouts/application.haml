@@ -1,28 +1,28 @@
 !!! 5
 %html
   %head
-  %title The Big Shake, 
-  %script{src: '//connect.soundcloud.com/sdk.js'}
-  %link{href: 'http://fonts.googleapis.com/css?family=Oswald:300,400,700', rel: 'stylesheet', type: 'text/css'}
-  %meta{property: 'og:title', content: "The Big Shake, le court métrage."}
-  %meta{property: 'og:url', content: 'http://thebigshake.net'}
-  %meta{property: 'og:image', content: "#{root_url}/project_1.png"}
-  %meta{property: 'fb:app_id', content: '725460550815345'}
-  %meta{property: 'fb:admins', content: '677501914'}
-  %meta{property: 'fb:admins', content: '546857582'}
-  %meta{property: 'og:description', content: ''}
-  
-  = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
-  = javascript_include_tag "application", "data-turbolinks-track" => true
-  = csrf_meta_tags
-  :javascript
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=383452895113498";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+    %title The Big Shake, 
+    %script{src: '//connect.soundcloud.com/sdk.js'}
+    %link{href: 'http://fonts.googleapis.com/css?family=Oswald:300,400,700', rel: 'stylesheet', type: 'text/css'}
+    %meta{property: 'og:title', content: "The Big Shake, le court métrage."}
+    %meta{property: 'og:url', content: 'http://thebigshake.net'}
+    %meta{property: 'og:image', content: "#{root_url}/project_1.png"}
+    %meta{property: 'fb:app_id', content: '725460550815345'}
+    %meta{property: 'fb:admins', content: '677501914'}
+    %meta{property: 'fb:admins', content: '546857582'}
+    %meta{property: 'og:description', content: ''}
+    
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+    :javascript
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=383452895113498";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
 %body
   %header
     #left
