@@ -57,7 +57,6 @@ class AudioPlayer
   play_track: (track_id, position) ->
     @current_stream.stop() if @current_stream
     @current_stream = @streams[track_id]
-    console.log @current_stream
     @current_stream.setPosition(position)
     @current_stream.play()
 
@@ -107,7 +106,6 @@ class AudioPlayer
       @play()
 
   play_pause: (ev) ->
-    console.log 'play_pause'
     @button = $(ev.target)
     @button = @button.parents('.band') unless @button.hasClass('band')
     if @button.hasClass('current')
@@ -130,6 +128,7 @@ class AudioPlayer
       $('.band').removeClass('paused')
       @button.addClass('current')
       @audio.play_track(@button.data('track-id'), position * 1000)
+      $.ajax({url: '/bands/' + @button.data('band-id'), type: 'PUT'})
 
   pause: (ev) ->
     icon = @button.find('i')

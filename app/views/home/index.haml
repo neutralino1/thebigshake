@@ -1,7 +1,7 @@
 #picker
   %ul
     - @bands.each_with_index do |band, ii|
-      %li.band{data: {track_id: band.track_id}}
+      %li.band{data: {track_id: band.track_id, band_id: band.id}}
         %figure{style: "background-image: url(#{band.thumbnail.url})"}
           .icon
             %i.icon-play
@@ -13,6 +13,11 @@
   -#%button#pause PAUSE
   .clear
 #player
+  %h3#hint 
+    %span.red 1 
+    court-métrage, 
+    %span.red 11 
+    groupes. Choisissez celui qui s'adapte le mieux aux images du film.
   %iframe#tbs-player{src: 'http://player.vimeo.com/video/72523306?api=1&player_id=tbs-player&byline=0&title=0', width: '780px', height: '439px', frameborder: '0', webkitAllowFullScreen: true, mozallowfullscreen: true, allowFullScreen: true }
 :javascript
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

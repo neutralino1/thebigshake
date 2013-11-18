@@ -3,7 +3,7 @@ Thebigshake::Application.routes.draw do
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   root 'home#index'
 
-  resources :bands, only: [:show]
+  resources :bands, only: [:show, :update]
 
   get 'project', to: 'home#project'
   get 'team', to: 'home#team'
