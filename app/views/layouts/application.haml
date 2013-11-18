@@ -21,7 +21,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=383452895113498";
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=725460550815345";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 %body
@@ -30,7 +30,7 @@
       %h1= link_to 'THE BIG SHAKE', root_path
     #right
       %ul#menu
-        %li PRESSE
+        %li= link_to 'RÉAGISSEZ', comments_path
         %li= link_to "L'EQUIPE", team_path
         %li.bands
           = link_to 'LES GROUPES', 'javascript://'

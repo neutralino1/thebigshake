@@ -10,4 +10,7 @@ class HomeController < ApplicationController
     @team = YAML::load(File.open(Rails.root.join('config', 'team.yml')))
   end
 
+  def comments
+  end
+
 end

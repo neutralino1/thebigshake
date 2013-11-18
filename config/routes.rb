@@ -7,5 +7,6 @@ Thebigshake::Application.routes.draw do
 
   get 'project', to: 'home#project'
   get 'team', to: 'home#team'
+  get 'comments', to: 'home#comments'
 
 end
