@@ -6,5 +6,6 @@ Thebigshake::Application.routes.draw do
   resources :bands, only: [:show]
 
   get 'project', to: 'home#project'
+  get 'team', to: 'home#team'
 
 end

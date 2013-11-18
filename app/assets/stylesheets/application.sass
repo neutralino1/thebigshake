@@ -10,6 +10,7 @@ body
   font-weight: 400
   background-image: image_url("background.jpg")
   background-size: cover
+  background-attachment: fixed
   color: #7e0000
   margin: 0
   a
@@ -76,6 +77,30 @@ body
       float: left
       padding: 20px
       width: 600px
+      &#team
+        ul
+          li
+            span.role
+              font-weight: 100
+              color: rgba(0, 0, 0, 0.5)
+        p.role
+          font-weight: 100
+          color: rgba(0, 0, 0, 0.5)
+        p.team-links
+          a
+            i
+              font-size: 25px
+              opacity: 0.5
+            color: rgba(0, 0, 0, 0.5)
+            margin-right: 20px
+            &.facebook i
+              color: #3b5998
+            &.twitter i
+              color: #00acee
+            &.website i
+              color: #5eab1f
+        h3
+          margin-top: 100px
       .bio
         font-weight: 300
         color: rgba(0, 0, 0, 0.7)

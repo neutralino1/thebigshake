@@ -1,0 +1,48 @@
+- 
+  name: Lucie Rico
+  slug: lucie
+  role: Réalisatrice
+  bio: |
+    Littéraire de formation, diplômée du Celsa en média, elle s'est spécialisée dans l'étude des réseaux sociaux et leurs implications fictionnelles et sémiologiques. Après avoir fait ses premières armes chez Canal+ aux nouveaux contenus, elle a rejoint la communauté WeLoveWords, qu'elle anime tout en se faisant garante de sa ligne éditoriale.
+  facebook:
+    name: lucie.rico
+    url: "http://facebook.com/lucie.rico"
+  twitter:
+    name: "@Lucie_R"
+    url: "http://twitter.com/Lucie_R"
+-
+  name: Garance Moreau
+  slug: garance
+  role: Actrice
+  bio: |
+    sdsdsdsd
+-
+  name: Andreas B. Krueger
+  slug: andreas
+  role: Chef opérateur
+  bio: |
+    Chef-opérateur et photographe, Andreas a fait ses armes aux Beaux-Arts de Berlin avant de terminer ses études à Paris. Se partageant entre les deux villes, il poursuit aussi bien des commandes (pub/journalisme) ainsi que ses projets personnels qui sont exposés régulièrement (Arles, Paris, Lyon, Berlin). Le sujet intrigant du projet et l'aspect de la relecture ont suscité son intérêt – son expérience dans le domaine du court-métrage et son regard sang-froid ont fait la combinaison idéale afin de collaborer avec Lucie Rico sur The Big Shake.
+  facebook:
+    name: andreas.b.krueger.photography
+    url: https://www.facebook.com/andreas.b.krueger.photography
+  twitter: 
+    name: '@abkPhoto'
+    url: http://twitter.com/abkPhoto
+  website:
+    name: andreasbkrueger.com
+    url: http://www.andreasbkrueger.com
+-
+  name: Emmanuel Turlay
+  slug: manu
+  role: Développeur
+  bio: |
+    Ancien physicien des particules au CERN, Emmanuel bifurque vers le web en rejoignant Official.fm en 2010 et lance releas.io en 2012. Spécialiste de la supersymmétrie, des produits web et des applications Ruby on Rails, il aime écrire du code lisible mais concis, cannonique mais audacieux, pour des projets auxquels il croit.
+  website:
+    name: turlay.net
+    url: http://turlay.net
+  facebook:
+    name: neutralino1
+    url: http://facebook.com/neutralino1
+  twitter:
+    name: '@neutralino1'
+    url: http://twitter.com/neutralino1
