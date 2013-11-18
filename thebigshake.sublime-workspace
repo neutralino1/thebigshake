@@ -528,10 +528,26 @@
 			}
 		},
 		{
+			"file": "app/views/home/index.haml",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "Gemfile",
 			"settings":
 			{
 				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/application.coffee",
+			"settings":
+			{
+				"buffer_size": 3904,
 				"line_ending": "Unix"
 			}
 		}
@@ -1035,7 +1051,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1051,8 +1067,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								182,
+								182
 							]
 						],
 						"settings":
@@ -1064,15 +1080,44 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/home/index.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
@@ -1084,8 +1129,8 @@
 						"selection":
 						[
 							[
-								191,
-								191
+								230,
+								230
 							]
 						],
 						"settings":
@@ -1094,6 +1139,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/javascripts/application.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2697,
+								2697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 944.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1155,6 +1229,14 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"app/views/home/index.haml"
+			],
+			[
+				"appcof",
+				"app/assets/javascripts/application.coffee"
+			],
+			[
 				"ro",
 				"config/routes.rb"
 			],
@@ -1205,10 +1287,6 @@
 			[
 				"appsa",
 				"app/assets/stylesheets/application.sass"
-			],
-			[
-				"inde",
-				"app/views/home/index.haml"
 			],
 			[
 				"appha",
@@ -1505,10 +1583,6 @@
 			[
 				"new_",
 				"app/assets/stylesheets/elements/new_message.sass"
-			],
-			[
-				"appcof",
-				"app/assets/javascripts/application.coffee"
 			],
 			[
 				"docedi",

@@ -66,18 +66,19 @@ class AudioPlayer
 
 @TBS =
   init: ->
-    console.log('init 1')
-    @video = new VideoPlayer()
-    track_ids = []
-    $('.band').each (ii, item) ->
-      track_ids.push($(item).data('track-id'))
-    @audio = new AudioPlayer(track_ids)
-    console.log('init 2')
-    $('.band').on 'click', @play_pause.bind(this)
-    $('button#pause').on 'click', @pause.bind(this)
-    @setup_video_callbacks()
-    @setup_video_size()
-    $(window).on 'resize', @setup_video_size.bind(this)
+    iframe = $('iframe#tbs-player')
+    if iframe[0]
+      @video = new VideoPlayer()
+      track_ids = []
+      $('.band').each (ii, item) ->
+        track_ids.push($(item).data('track-id'))
+      @audio = new AudioPlayer(track_ids)
+
+      $('.band').on 'click', @play_pause.bind(this)
+      $('button#pause').on 'click', @pause.bind(this)
+      @setup_video_callbacks()
+      @setup_video_size()
+      $(window).on 'resize', @setup_video_size.bind(this)
 
   setup_video_size: ->
     body = $('body')
