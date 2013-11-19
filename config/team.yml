@@ -32,6 +32,21 @@
     name: andreasbkrueger.com
     url: http://www.andreasbkrueger.com
 -
+  name: Edwige Moreau
+  slug: edwige
+  role: Caméra B
+  bio: |
+    Après des études théâtrales et un détour par le journalisme et le Québec, Edwige s'oriente vers le cinéma documentaire. Elle obtient en 2011 un master en production et réalisation documentaire à l'université Paris VII. Depuis elle collabore avec différentes sociétés de production parisiennes, à l'écriture, à la réalisation et à la production de films documentaires, avec un vrai enthousiasme pour les films de création. Elle travaille parallèlement avec Gold Rush Films comme technicienne et réalise actuellement  son premier court-métrage.
+-
+  name: Sabrina Bouzourene
+  slug: sabrina
+  role: Communication
+  bio: |
+    Jeune diplômée d'un master en management des entreprises culturelles et intéressée par les médias et le divertissement de manière générale, Sabrina est une passionnée acharnée de musique et de cinéma. Quoi de plus normal de faire partie de l'aventure The Big Shake, projet ambitieux au carrefour des genres. Elle s'occupe donc de la communication avec la presse et du community management du projet.
+  twitter: 
+    name: "@Sab_zzz"
+    url: http://twitter.com/Sab_zzz
+-
   name: Emmanuel Turlay
   slug: manu
   role: Développeur

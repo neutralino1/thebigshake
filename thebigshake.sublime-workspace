@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
-				"play",
-				"play_pause"
-			],
-			[
 				"margin",
 				"margin-right"
 			],
 			[
-				"font",
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
 				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"play",
+				"play_pause"
 			],
 			[
 				"li",
@@ -30,10 +38,6 @@
 			[
 				"pick",
 				"picker_width"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"ba",
@@ -510,20 +514,56 @@
 			[
 				"init",
 				"initialized"
-			],
-			[
-				"Choisi",
-				"Choisissez"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/assets/javascripts/application.coffee",
+			"settings":
+			{
+				"buffer_size": 3968,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/band.rb",
+			"settings":
+			{
+				"buffer_size": 808,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 182,
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.sass",
+			"settings":
+			{
+				"buffer_size": 4417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20131118155231_add_play_count_to_bands.rb",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/bands_controller.rb",
+			"settings":
+			{
+				"buffer_size": 231,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,23 +571,23 @@
 			"file": "app/views/home/index.haml",
 			"settings":
 			{
-				"buffer_size": 600,
+				"buffer_size": 1114,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/views/layouts/application.haml",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 2270,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/javascripts/application.coffee",
+			"file": "config/team.yml",
 			"settings":
 			{
-				"buffer_size": 3904,
+				"buffer_size": 2780,
 				"line_ending": "Unix"
 			}
 		}
@@ -595,18 +635,23 @@
 	},
 	"file_history":
 	[
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/stylesheets/application.sass",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/Gemfile",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/javascripts/application.coffee",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/home_controller.rb",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/bands_controller.rb",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/helpers/application_helper.rb",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/project.haml",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/stylesheets/application.sass",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/team.yml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/index.haml",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/bands_controller.rb",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/routes.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/layouts/application.haml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/bands/show.haml",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/.gitignore",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/team.haml",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/comments.haml",
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/helpers/application_helper.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/models/band.rb",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/Gemfile",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/db/migrate/20131022163119_add_url_to_bands.rb",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/routes.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/Gemfile.lock",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/application_controller.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/db/migrate/20131022154234_add_track_name_to_bands.rb",
@@ -615,7 +660,6 @@
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/database.yml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/db/migrate/20131016205031_create_bands.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/s3.yml",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/.gitignore",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/javascripts/froogaloop.js",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/db/migrate/20131016200043_devise_create_admins.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/initializers/devise.rb",
@@ -718,11 +762,7 @@
 		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/assets/javascripts/home/tools.coffee",
 		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/views/home/_cover.haml",
 		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/views/home/tools.haml",
-		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/assets/javascripts/conversations/show.coffee",
-		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/assets/javascripts/shared/ajaxor.coffee",
-		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/views/abuse_reports/new.haml",
-		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/views/admins/_admin_bar.haml",
-		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/views/layouts/_ga.haml"
+		"/Users/neutralino1/Projects/WeLoveWords/welovewords2/app/assets/javascripts/conversations/show.coffee"
 	],
 	"find":
 	{
@@ -1051,24 +1091,82 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "app/assets/javascripts/application.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 182,
+						"buffer_size": 3968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								182,
-								182
+								2685,
+								2685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1297.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/band.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
 							]
 						],
 						"settings":
@@ -1082,12 +1180,130 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
+					"file": "app/assets/stylesheets/application.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2634,
+								2634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1322.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "db/migrate/20131118155231_add_play_count_to_bands.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/bands_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "app/views/home/index.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 600,
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/layouts/application.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2270,
 						"regions":
 						{
 						},
@@ -1105,69 +1321,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 656,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 72.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/assets/javascripts/application.coffee",
+					"buffer": 8,
+					"file": "config/team.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3904,
+						"buffer_size": 2780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2697,
-								2697
+								2512,
+								2512
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 944.0,
+						"translation.y": 182.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1229,6 +1413,26 @@
 		"selected_items":
 		[
 			[
+				"tea",
+				"config/team.yml"
+			],
+			[
+				"appha",
+				"app/views/layouts/application.haml"
+			],
+			[
+				"appsa",
+				"app/assets/stylesheets/application.sass"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"band",
+				"app/models/band.rb"
+			],
+			[
 				"inde",
 				"app/views/home/index.haml"
 			],
@@ -1237,8 +1441,28 @@
 				"app/assets/javascripts/application.coffee"
 			],
 			[
-				"ro",
-				"config/routes.rb"
+				"bandsc",
+				"app/controllers/bands_controller.rb"
+			],
+			[
+				"addpl",
+				"db/migrate/20131118155231_add_play_count_to_bands.rb"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"show",
+				"app/views/bands/show.haml"
+			],
+			[
+				"app",
+				"app/views/layouts/application.haml"
+			],
+			[
+				"hom",
+				"app/controllers/home_controller.rb"
 			],
 			[
 				"gem",
@@ -1269,28 +1493,12 @@
 				"app/controllers/home_controller.rb"
 			],
 			[
-				"band",
-				"app/models/band.rb"
-			],
-			[
 				"addt",
 				"db/migrate/20131022154234_add_track_name_to_bands.rb"
 			],
 			[
 				"appcoff",
 				"app/assets/javascripts/application.coffee"
-			],
-			[
-				"app",
-				"app/views/layouts/application.haml"
-			],
-			[
-				"appsa",
-				"app/assets/stylesheets/application.sass"
-			],
-			[
-				"appha",
-				"app/views/layouts/application.haml"
 			],
 			[
 				".gi",
@@ -1467,10 +1675,6 @@
 			[
 				"fou",
 				"app/assets/stylesheets/foundation_and_overrides.scss"
-			],
-			[
-				"hom",
-				"app/controllers/home_controller.rb"
 			],
 			[
 				"deploy",
@@ -1719,26 +1923,6 @@
 			[
 				"_newco",
 				"app/views/activities/types/_new_contest.haml"
-			],
-			[
-				"apph",
-				"app/helpers/application_helper.rb"
-			],
-			[
-				"newblog",
-				"app/views/activities/types/_new_blog_post.haml"
-			],
-			[
-				"nav",
-				"app/views/layouts/_nav.haml"
-			],
-			[
-				"_c",
-				"app/views/home/_cover.haml"
-			],
-			[
-				"ajax",
-				"app/assets/javascripts/shared/ajaxor.coffee"
 			]
 		],
 		"width": 0.0
