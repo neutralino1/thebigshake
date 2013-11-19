@@ -30,3 +30,7 @@
           = link_to member['twitter']['url'], target: :new, class: 'twitter' do
             %i.icon-twitter-sign
             = member['twitter']['name']
+        - if member['googleplus']
+          = link_to member['googleplus']['url'], target: :new, class: 'googleplus' do
+            %i.icon-google-plus-sign
+            = member['googleplus']['name']

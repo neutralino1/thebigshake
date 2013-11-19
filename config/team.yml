@@ -22,6 +22,12 @@
   role: Assistant réalisateur
   bio: |
     Auteur, blogueur et passionné de cinéma, Hadrien a participé à The Big Shake en tant qu'assistant réalisateur pour se plonger dans l'envers du décor.
+  twitter:
+    name: "@Warden"
+    url: http://twitter.com/Warden
+  googleplus:
+    name: "+HadrienFiere"
+    url: https://plus.google.com/u/0/+HadrienFiere/posts
 -
   name: Andreas B. Krueger
   slug: andreas

@@ -140,3 +140,16 @@ class AudioPlayer
 
 $ -> TBS.init()
 $(document).on 'page:load', -> TBS.init()
+
+if !Function.prototype.bind
+  Function.prototype.bind = (oThis) ->
+    if typeof this != "function"
+      throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable")
+    aArgs = Array.prototype.slice.call(arguments, 1)
+    fToBind = this
+    fNOP = -> {}
+    fBound = ->
+      return fToBind.apply(this instanceof fNOP ? this : oThis || window, aArgs.concat(Array.prototype.slice.call(arguments)))
+    fNOP.prototype = this.prototype
+    fBound.prototype = new fNOP()
+    return fBound
