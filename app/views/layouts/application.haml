@@ -12,8 +12,8 @@
     %meta{property: 'fb:admins', content: '677501914'}
     %meta{property: 'fb:admins', content: '546857582'}
     -#%meta{property: 'og:video', content: 'http://vimeo.com/72523306'}
-    %meta{property: 'og:description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à une geste du quotidien qui dérape.'}
-    %meta{name: 'description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à une geste du quotidien qui dérape.'}
+    %meta{property: 'og:description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à un geste du quotidien qui dérape.'}
+    %meta{name: 'description', content: 'Relecture du film de Scorsese, The Big Shake met en scène une jeune femme confrontée en apparence à un geste du quotidien qui dérape.'}
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
@@ -26,6 +26,7 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 %body
+  .fb-root
   %header
     #left
       %h1= link_to 'THE BIG SHAKE', root_path
@@ -45,6 +46,3 @@
   = yield
   .clear
   %footer
-    THE BIG SHAKE
-    .fb-root
-    .fb-like{data: {href: 'https://www.facebook.com/thebigshakefilm', layout: 'button_count', action: 'like', show_faces: 'false', share: 'false'}}

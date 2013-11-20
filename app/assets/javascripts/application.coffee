@@ -73,8 +73,8 @@ class AudioPlayer
         track_ids.push($(item).data('track-id'))
       @audio = new AudioPlayer(track_ids)
 
-      $('.band').on 'click', @play_pause.bind(this)
-      $('button#pause').on 'click', @pause.bind(this)
+      $('.band').on 'click tap', @play_pause.bind(this)
+      $('button#pause').on 'click tap', @pause.bind(this)
       @setup_video_callbacks()
       @setup_video_size()
       $(window).on 'resize', @setup_video_size.bind(this)
@@ -101,7 +101,7 @@ class AudioPlayer
         if @button.hasClass('paused')
           @play()
       else
-        $('.band').first().trigger 'click'
+        $('.band').first().trigger 'click tap'
     @video.on_seek = =>
       @play()
 
