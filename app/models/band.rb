@@ -1,6 +1,11 @@
 class Band < ActiveRecord::Base
 
   rails_admin do
+    list do
+      field :thumbnail
+      field :name
+      field :play_count
+    end
     edit do
       field :name
       field :track_id
