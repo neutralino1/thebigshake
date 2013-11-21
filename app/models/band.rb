@@ -2,9 +2,12 @@ class Band < ActiveRecord::Base
 
   rails_admin do
     list do
+      sort_by :play_count
       field :thumbnail
       field :name
-      field :play_count
+      field :play_count do
+        sort_reverse true
+      end
     end
     edit do
       field :name
