@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Hadrien",
+				"HadrienFiere"
+			],
+			[
 				"margin",
 				"margin-right"
 			],
@@ -510,10 +514,6 @@
 			[
 				"vi",
 				"visit"
-			],
-			[
-				"init",
-				"initialized"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "app/assets/javascripts/application.coffee",
 			"settings":
 			{
-				"buffer_size": 3968,
+				"buffer_size": 4499,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "app/models/band.rb",
 			"settings":
 			{
-				"buffer_size": 808,
+				"buffer_size": 935,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +547,31 @@
 			"file": "app/assets/stylesheets/application.sass",
 			"settings":
 			{
-				"buffer_size": 4417,
+				"buffer_size": 4473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/project.haml",
+			"settings":
+			{
+				"buffer_size": 3508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/team.haml",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/index.haml",
+			"settings":
+			{
+				"buffer_size": 1266,
 				"line_ending": "Unix"
 			}
 		},
@@ -568,18 +592,10 @@
 			}
 		},
 		{
-			"file": "app/views/home/index.haml",
-			"settings":
-			{
-				"buffer_size": 1114,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/layouts/application.haml",
 			"settings":
 			{
-				"buffer_size": 2270,
+				"buffer_size": 2101,
 				"line_ending": "Unix"
 			}
 		},
@@ -587,7 +603,7 @@
 			"file": "config/team.yml",
 			"settings":
 			{
-				"buffer_size": 2780,
+				"buffer_size": 4337,
 				"line_ending": "Unix"
 			}
 		}
@@ -635,12 +651,12 @@
 	},
 	"file_history":
 	[
+		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/team.yml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/Gemfile",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/javascripts/application.coffee",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/home_controller.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/project.haml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/assets/stylesheets/application.sass",
-		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/team.yml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/views/home/index.haml",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/app/controllers/bands_controller.rb",
 		"/Users/neutralino1/Projects/TheBigShave/thebigshake/config/routes.rb",
@@ -908,6 +924,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"click",
 			"params",
 			"search",
 			"search:",
@@ -1034,8 +1051,7 @@
 			"Commenter",
 			"aasm",
 			"default_url_options[:host]",
-			"reveal",
-			"reveal_ajax"
+			"reveal"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1091,7 +1107,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1100,15 +1116,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3968,
+						"buffer_size": 4499,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2685,
-								2685
+								569,
+								569
 							]
 						],
 						"settings":
@@ -1118,7 +1134,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1297.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1129,15 +1145,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 808,
+						"buffer_size": 935,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								88,
+								88
 							]
 						],
 						"settings":
@@ -1185,15 +1201,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4417,
+						"buffer_size": 4473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2634,
-								2634
+								2241,
+								2241
 							]
 						],
 						"settings":
@@ -1203,7 +1219,94 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1322.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/home/project.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2951,
+								2951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 279.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/home/team.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/home/index.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1211,11 +1314,11 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "db/migrate/20131118155231_add_play_count_to_bands.rb",
 					"semi_transient": false,
 					"settings":
@@ -1242,7 +1345,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "app/controllers/bands_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -1274,7 +1377,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1114,
+						"buffer_size": 1266,
 						"regions":
 						{
 						},
@@ -1298,20 +1401,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "app/views/layouts/application.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2270,
+						"buffer_size": 2101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								877,
+								877
 							]
 						],
 						"settings":
@@ -1321,37 +1424,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 129.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "config/team.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2780,
+						"buffer_size": 4337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2512,
-								2512
+								655,
+								655
 							]
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 182.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "app/assets/javascripts/application.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2223,
+								2244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1038.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1413,6 +1546,26 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"app/views/home/index.haml"
+			],
+			[
+				"appco",
+				"app/assets/javascripts/application.coffee"
+			],
+			[
+				"team",
+				"app/views/home/team.haml"
+			],
+			[
+				"te",
+				"config/team.yml"
+			],
+			[
+				"pro",
+				"app/views/home/project.haml"
+			],
+			[
 				"tea",
 				"config/team.yml"
 			],
@@ -1431,10 +1584,6 @@
 			[
 				"band",
 				"app/models/band.rb"
-			],
-			[
-				"inde",
-				"app/views/home/index.haml"
 			],
 			[
 				"appcof",
@@ -1765,10 +1914,6 @@
 				"app/assets/stylesheets/typologies/elements.sass"
 			],
 			[
-				"appco",
-				"app/assets/javascripts/application.coffee"
-			],
-			[
 				"inpu",
 				"lib/assets/javascripts/jquery.tagsinput.js"
 			],
@@ -1910,18 +2055,6 @@
 			],
 			[
 				"newcont",
-				"app/views/activities/types/_new_contest.haml"
-			],
-			[
-				"foll",
-				"app/views/user_mailer/notifications/following_document.haml"
-			],
-			[
-				"_contes",
-				"app/views/activities/types/_contest_update.haml"
-			],
-			[
-				"_newco",
 				"app/views/activities/types/_new_contest.haml"
 			]
 		],
